@@ -21,6 +21,7 @@ import Fruitadd from './Components/Redux/Fruitadd';
 import Fruitsview from './Components/Redux/Fruitsview';
 import Brandadd from './Components/Redux/Brandadd';
 import Brandview from './Components/Redux/Brandview';
+import Test from './Components/Validate/Test';
 const Lazylazyload = React.lazy(()=> import('./Lazyloading/Lazyload'));
 const Lazybubcapture = React.lazy(()=> import('./Components/Bubpropgatcapture'));
 function App()
@@ -46,6 +47,7 @@ function App()
   <Route path='Customerview' element={<Customerview/>}/>
   <Route path='Fruitadd' element={<Fruitadd/>}/>
   <Route path='Fruitview' element={<Fruitsview/>}/>
+  <Route path='test' element={<Test/>} />
   
   
   <Route path='lazyload' element={<React.Suspense fallback='Loading...'> <Lazylazyload/></React.Suspense>}/>
