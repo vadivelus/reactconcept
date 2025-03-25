@@ -19,7 +19,7 @@ useEffect(()=>{
     const span = document.querySelector('span');
 
     div.addEventListener('click', function(){
-        alert('div');
+        // alert('div');
     })
     form.addEventListener('click', function(){  
         alert('form')
@@ -35,6 +35,7 @@ useEffect(()=>{
 },[]);
     return(
         <div >
+            <p>check conepts in Chatgpt</p>
             <div id='firstdiv' style={mystle}>
                 DIV
                 <form id='seconddiv' style={mystle}>
